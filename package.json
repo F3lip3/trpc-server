@@ -2,7 +2,11 @@
   "name": "@trpc-poc/server",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "src/server.js",
+  "files": [
+    "src/server.js",
+    "src/router.js"
+  ],
   "scripts": {
     "dev": "tsx watch src/server.ts"
   },
